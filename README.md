@@ -1,65 +1,107 @@
-# ✈️ HighCloud Airlines Operations Dashboard
+# ✈️ HighCloud Airlines Operations Analysis
 
 ## 📌 Project Overview
-This project analyzes airline operations data (2008–2013) to evaluate flight performance, passenger trends, and freight transportation growth.  
-The objective was to identify operational patterns and generate business insights.
+
+This project analyzes airline operations data (2008–2013) to evaluate:
+
+- Passenger traffic trends
+- Freight transportation growth
+- Airline performance comparison
+- Operational efficiency
+
+The objective was to generate business insights using Excel and SQL.
 
 ---
 
 ## 🛠 Tools Used
-- Excel (Data Cleaning, Pivot Tables, Dashboard)
-- MySQL (Data Analysis Queries)
-- SQL
-- Tableau
-- Python (Pandas, NumPy, Matplotlib, Seaborn)
-- Statistical Analysis
+
+- Microsoft Excel (Data Cleaning, Pivot Tables, Dashboard)
+- MySQL (SQL Analysis Queries)
+- GitHub (Project Documentation)
 
 ---
 
-## 📂 Dataset Description
-The dataset includes:
-- Airline Name
-- Year
-- Total Flights
-- Total Distance (Miles)
-- Total Passengers
-- Total Freight (Tons)
+## 📂 Project Structure
+
+Highcloud-Airlines-Dashboard  
+│  
+├── data/  
+│   ├── rawdata.xlsx  
+│   └── cleaned_data.xlsx  
+│  
+├── sql/  
+│   └── analysis_queries.sql  
+│  
+├── dashboard/  
+│   ├── HCA project_ss.png  
+│   └── HCA project_ss2.png  
+│  
+└── README.md  
 
 ---
 
-## 🧹 Data Cleaning (Performed in Excel)
-- Removed null values
-- Standardized airline names
-- Corrected data types
-- Removed duplicates
-- Structured dataset for analysis
+## 🧹 Data Cleaning
+
+Data cleaning was performed in Microsoft Excel:
+
+- Removed null and missing values  
+- Standardized airline names  
+- Corrected inconsistent formats  
+- Removed duplicate records  
+- Structured dataset for analysis  
 
 ---
 
 ## 🗄 SQL Analysis
-Performed analytical queries to answer:
 
-- What is the yearly trend in total flights?
-- Which airlines have the highest passenger share?
-- How has freight transportation changed over time?
-- What is the load factor comparison by day type?
+SQL queries were written to answer key business questions:
+
+- Year-wise passenger growth  
+- Airline performance comparison  
+- Freight transportation trends  
+- Aggregated KPI calculations  
+
+All queries are available in:
+
+sql/analysis_queries.sql
 
 ---
 
 ## 📊 Dashboard
-(Add dashboard screenshot here after uploading images)
+
+The Excel dashboard provides:
+
+- Year-wise performance metrics  
+- Airline comparison analysis  
+- Passenger and freight trend visualization  
+- KPI-based summary insights  
+
+Screenshots are available inside the `dashboard` folder.
 
 ---
 
 ## 📌 Key Insights
-- Passenger volume declined during early years but recovered steadily.
-- Freight transport shows correlation with total flight count.
-- Certain airlines consistently dominate passenger share.
-- Weekend load factor is slightly higher than weekdays.
+
+- Passenger traffic shows consistent growth over the years.  
+- Freight transportation increased after 2010.  
+- Certain airlines dominate total passenger share.  
+- Operational efficiency improved over time.  
 
 ---
 
-## 💡 Business Recommendations
-- Optimize routes with high passenger growth.
-- Improve freight capacity management.
-- Focus on operational efficiency during low-performing periods.
+## 🚀 Project Outcome
+
+This project demonstrates:
+
+- End-to-end data cleaning
+- SQL analytical thinking
+- Business insight generation
+- Dashboard development in Excel
+- Structured documentation practices
+
+---
+
+## 👨‍💻 Author
+
+Dheeraj N  
+Aspiring Data Analyst | SQL | Excel | Business Analytics
